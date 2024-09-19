@@ -1,6 +1,6 @@
 [submodule "codekids-front"]
 	path = codekids-front
-	url = git@github.com:inesin1/codekids-front.git
+	url = https://github.com/inesin1/codekids-front
 [submodule "codekids-back"]
 	path = codekids-back
-	url = git@github.com:inesin1/codekids-back.git
+	url = https://github.com/inesin1/codekids-back
