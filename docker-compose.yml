@@ -15,11 +15,11 @@ services:
       - dev
   backend:
     build:
-      context: ./backend
+      context: ./codekids-back
     networks:
       - dev
   frontend:
     build:
-      context: ./frontend
+      context: ./codekids-front
     networks:
       - dev
