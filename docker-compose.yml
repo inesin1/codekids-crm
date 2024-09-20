@@ -18,8 +18,10 @@ services:
       context: ./codekids-back
     networks:
       - dev
+    env_file: ./codekids-back/.env
   frontend:
     build:
       context: ./codekids-front
     networks:
       - dev
+    env_file: ./codekids-front/.env
