@@ -1,3 +1,5 @@
+version: "2.4"
+
 networks:
   dev:
 
@@ -21,5 +23,6 @@ services:
   frontend:
     build:
       context: ./codekids-front
+    mem_limit: 0.5GB
     networks:
       - dev
