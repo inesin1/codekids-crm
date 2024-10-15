@@ -1,0 +1,16 @@
+{
+    "name": "codekids",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "front-dev": "cd codekids-front && yarn dev",
+      "front-build": "cd codekids-front && yarn build",
+      "back-dev": "cd codekids-back && yarn start:dev"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+      "prettier": "^3.3.3"
+    }
+  }
